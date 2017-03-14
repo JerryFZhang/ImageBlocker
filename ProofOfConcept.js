@@ -2,7 +2,7 @@
   var newscript = document.createElement('script');
      newscript.type = 'text/javascript';
      newscript.async = true;
-     newscript.src = 'http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js';
+     newscript.src = 'https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js';
   (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(newscript);
 })();
 setInterval(function() {
