@@ -10,14 +10,16 @@ if(!window.jQuery)
 }
 
 setInterval(function() {
-$('img').removeAttr('src');
-$('video').removeAttr("src");
-$('img').removeAttr('data-src');
-$('img').removeAttr('srcset');
+jQuery('img').removeAttr('src');
+jQuery('video').removeAttr("src");
+jQuery('img').removeAttr('data-src');
+jQuery('img').removeAttr('srcset');
+jQuery('source').removeAttr('srcset');
+
 //$('.tcu-imageWrapper').removeAttr('data-style');
 //$('.tcu-imageWrapper').removeAttr('style');
 //$('.LiveVideoHomePageModule-postSlate').removeAttr('style');
 //$('.PlayableMedia-player*').removeAttr('style');
-$('*').css("background-image", "");
+jQuery('*').css("background-image", "");
 console.log("done!");
 }, 100);
